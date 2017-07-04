@@ -5,3 +5,18 @@
     -o-background-size: cover;
     background-size: cover;
     }
+
+.presentacion{
+  font-family: 'Amita', cursive;
+  background: rgba(12, 12, 12,.5);
+}
+
+.Titulo{
+  font-family: 'Amita', cursive;
+  font-size: 70px;
+}
+
+.parrafo{
+  font-size: 22px;
+  font-family: 'Lobster Two', cursive;
+}
