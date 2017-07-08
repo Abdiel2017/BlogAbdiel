@@ -52,3 +52,8 @@ figure img{
   height: 200px;
   border: 2px solid red;
 }
+
+.correo{
+  color: yellow;
+  text-decoration: none;
+}
