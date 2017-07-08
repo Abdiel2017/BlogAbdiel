@@ -1,22 +1,43 @@
+/*Dimensionando la imagen*/
   body {
     background: url("../images/fondo.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: yellow;
     }
+/*Termino del dimensionamiento de pantalla*/
 
-.presentacion{
-  font-family: 'Amita', cursive;
-  background: rgba(12, 12, 12,.5);
+.titulo{
+  display: inline-block;
+  font-size: 42px;
+  position: absolute;
+  right: 0;
 }
 
-.Titulo{
+img{
+  border-radius: 50%;
+  /*position: absolute;*/
+}
+
+.header{
   font-family: 'Amita', cursive;
-  font-size: 70px;
+  background: rgba(12, 12, 12,.5);
+  position: relative;
 }
 
 .parrafo{
   font-size: 22px;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Kurale', serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.Foto{
+  display: inline-block;
+}
+
+.sombreado{
+  background: rgba(12, 12, 12,.5);
 }
