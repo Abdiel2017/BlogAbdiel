@@ -10,21 +10,23 @@
 /*Termino del dimensionamiento de pantalla*/
 
 .titulo{
-  display: inline-block;
+  display: flex;
   font-size: 42px;
-  position: absolute;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   right: 0;
 }
 
-img{
+figure img{
   border-radius: 50%;
-  /*position: absolute;*/
 }
 
 .header{
   font-family: 'Amita', cursive;
   background: rgba(12, 12, 12,.5);
-  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .parrafo{
@@ -35,9 +37,18 @@ img{
 }
 
 .Foto{
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .sombreado{
   background: rgba(12, 12, 12,.5);
+}
+
+.sombreado img{
+  margin: 50px 80px 80px 20px;
+  width: 250px;
+  height: 200px;
+  border: 2px solid red;
 }
