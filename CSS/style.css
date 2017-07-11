@@ -44,6 +44,7 @@ figure img{
 
 .sombreado{
   background: rgba(12, 12, 12,.5);
+  font-size: 18px;
 }
 
 .sombreado img{
@@ -56,4 +57,8 @@ figure img{
 .correo{
   color: yellow;
   text-decoration: none;
+}
+
+.Datos{
+  margin: 40px 25px;
 }
