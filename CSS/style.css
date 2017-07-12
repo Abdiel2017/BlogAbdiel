@@ -5,7 +5,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: yellow;
+    color: white;
     }
 /*Termino del dimensionamiento de pantalla*/
 
@@ -27,6 +27,7 @@ figure img{
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  border-radius: 50px;
 }
 
 .parrafo{
@@ -55,10 +56,13 @@ figure img{
 }
 
 .correo{
-  color: yellow;
+  color: white;
   text-decoration: none;
 }
 
 .Datos{
   margin: 40px 25px;
+  /*background: rgba(6,
+ 6, 6,.5);
+  border-radius: 10px;*/
 }
